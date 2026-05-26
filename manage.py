@@ -6,7 +6,11 @@ import sys
 
 def main():
     """Run administrative tasks."""
+   main
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ticket_booking.settings')
+
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'eventsproject.settings')
+   modular
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
