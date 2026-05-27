@@ -1,0 +1,29 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Event & Ticket Booking System</title>
+</head>
+<body>
+    <header>
+        <h1>🎟️ Local Event & Ticket Booking System</h1>
+        <p>Welcome to our group collaboration portal!</p>
+        <hr>
+    </header>
+
+    <main>
+        <h3>Authentication System Quick Links:</h3>
+        <ul>
+            <li><a href="{% url 'register' %}">Register New Account</a></li>
+            <li><a href="{% url 'login' %}">User Login Portal</a></li>
+            <li><a href="{% url 'profile' %}">User Dashboard Profile</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Project Initialized Successfully — Built with Django 6.0</p>
+    </footer>
+</body>
+</html>
