@@ -1,0 +1,6 @@
+<h2>Welcome, {{ request.user.username }}!</h2>
+<p>Email: {{ request.user.email }}</p>
+<p>Status: Logged In Successfully</p>
+
+<!-- Teammates can plug into this URL easily later -->
+<a href="{% url 'logout' %}">Logout</a>
